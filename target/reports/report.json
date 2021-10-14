@@ -1,0 +1,391 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T11:42:48.980Z",
+        "line": 5,
+        "name": "Orange HRM add Scenario",
+        "description": "",
+        "id": "orange-hrm-add-record;orange-hrm-add-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23331806900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has logged in and is on admin tab",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Add_StepDef3.user_has_logged_in_and_is_on_admin_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1007222800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on add button",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Add_StepDef3.user_clicks_on_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 513042800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters  new employee info",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Add_StepDef3.user_enters_new_employee_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is able to add employee record",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Add_StepDef3.user_is_able_to_add_employee_record()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM add record",
+    "description": "",
+    "id": "orange-hrm-add-record",
+    "keyword": "Feature",
+    "uri": "file:src/main/Java/Add3.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T11:43:13.968Z",
+        "line": 5,
+        "name": "Orange HRM delete record Scenario",
+        "description": "",
+        "id": "orange-hrm-delete-record;orange-hrm-delete-record-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18952190300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is logged in and navigates to admin tab",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Del_StepDef4.user_is_logged_in_and_navigates_to_admin_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200464900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects a record",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Del_StepDef4.user_selects_a_record()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is able to delete a record from database",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Del_StepDef4.user_is_able_to_delete_a_record_from_database()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM delete record",
+    "description": "",
+    "id": "orange-hrm-delete-record",
+    "keyword": "Feature",
+    "uri": "file:src/main/Java/Delete4.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T11:43:33.140Z",
+        "line": 5,
+        "name": "Orange HRM  edit record Scenario",
+        "description": "",
+        "id": "orange-hrm-edit-record;orange-hrm--edit-record-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21822523700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is logged in and directed to admin tab",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Edit_StepDef6.user_is_logged_in_and_directed_to_admin_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1840067000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on a record to edit",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Edit_StepDef6.user_clicks_on_a_record_to_edit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 894549900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters updated info",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Edit_StepDef6.user_enters_updated_info()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is able to see updated record",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Edit_StepDef6.user_is_able_to_see_updated_record()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM edit record",
+    "description": "",
+    "id": "orange-hrm-edit-record",
+    "keyword": "Feature",
+    "uri": "file:src/main/Java/Edit6.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T11:43:57.708Z",
+        "line": 5,
+        "name": "Orange HRM home Scenario",
+        "description": "",
+        "id": "orange-hrm-home;orange-hrm-home-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is logged into website",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Openad_StepDef0.user_is_logged_into_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on admin tab",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Openad_StepDef0.user_clicks_on_admin_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on user management option",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Openad_StepDef0.user_clicks_on_user_management_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be able to see user management panel",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Openad_StepDef0.user_should_be_able_to_see_user_management_panel()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM home",
+    "description": "",
+    "id": "orange-hrm-home",
+    "keyword": "Feature",
+    "uri": "file:src/main/Java/Openadmin.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T11:43:57.716Z",
+        "line": 5,
+        "name": "Orange HRM reset Scenario",
+        "description": "",
+        "id": "orange-hrm-reset;orange-hrm-reset-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36352396700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has logged in to orange hrm and is on admin tab",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Reset_StepDef2.user_has_logged_in_to_orange_hrm_and_is_on_admin_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2694623400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters employee information",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Reset_StepDef2.user_enters_employee_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1288628500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on reset button",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Reset_StepDef2.user_clicks_on_reset_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is able to reset all the info",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Reset_StepDef2.user_is_able_to_reset_all_the_info()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM reset",
+    "description": "",
+    "id": "orange-hrm-reset",
+    "keyword": "Feature",
+    "uri": "file:src/main/Java/Reset2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T11:44:38.061Z",
+        "line": 5,
+        "name": "Orange HRM search Scenario",
+        "description": "",
+        "id": "orange-hrm-search;orange-hrm-search-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48040321300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User has already logged in and navigates to admin tab",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Search_StepDef1.user_has_already_logged_in_and_navigates_to_admin_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2854264100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters employee info and clicks on search",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Search_StepDef1.user_enters_employee_info()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is able to see employee info",
+            "match": {
+              "location": "com.stepdefinition.sprinttwo.Search_StepDef1.user_is_able_to_see_employee_info()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM search",
+    "description": "",
+    "id": "orange-hrm-search",
+    "keyword": "Feature",
+    "uri": "file:src/main/Java/Search1.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="160.302">
+    <testcase classname="Orange HRM add record" name="Orange HRM add Scenario" time="24.969">
+        <system-out><![CDATA[Given user has logged in and is on admin tab................................passed
+When user clicks on add button..............................................passed
+And user enters  new employee info..........................................passed
+Then user is able to add employee record....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Orange HRM delete record" name="Orange HRM delete record Scenario" time="19.154">
+        <system-out><![CDATA[Given User is logged in and navigates to admin tab..........................passed
+When user selects a record..................................................passed
+Then user is able to delete a record from database..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Orange HRM edit record" name="Orange HRM  edit record Scenario" time="24.56">
+        <system-out><![CDATA[Given user is logged in and directed to admin tab...........................passed
+When user clicks on a record to edit........................................passed
+Then user enters updated info...............................................passed
+And user is able to see updated record......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Orange HRM home" name="Orange HRM home Scenario" time="0.001">
+        <system-out><![CDATA[Given User is logged into website...........................................passed
+Given User clicks on admin tab..............................................passed
+When user clicks on user management option..................................passed
+Then user should be able to see user management panel.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Orange HRM reset" name="Orange HRM reset Scenario" time="40.336">
+        <system-out><![CDATA[Given user has logged in to orange hrm and is on admin tab..................passed
+When user enters employee information.......................................passed
+Then user clicks on reset button............................................passed
+And user is able to reset all the info......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Orange HRM search" name="Orange HRM search Scenario" time="50.895">
+        <system-out><![CDATA[Given User has already logged in and navigates to admin tab.................passed
+When user enters employee info and clicks on search.........................passed
+Then user is able to see employee info......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
